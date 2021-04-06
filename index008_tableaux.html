@@ -1,0 +1,67 @@
+<!-- Cours : HTML/CSS #8 - tableaux -->
+<!-- Lien : https://www.youtube.com/watch?v=yTp_qgvM1LU&list=PLrSOXFDHBtfE5tpw0bjMevWxMWXotiSdO&index=8 -->
+
+<!-- Dans ce programme on apprend les tableaux en HTML -->
+
+<!-- Éditeur : Laurent REYNAUD -->
+<!-- Date : 06-04-2021 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cours n° 8 - Les tableaux en HTML</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table>
+		<caption>Mon 1er tableau</caption> <!-- titre du tableau (facultatif) -->
+		<thead> <!-- en-têtes du tableau (facultatif) -->
+			
+		</thead>
+		<tbody> <!-- corps du tableau (facultatif)-->
+			
+		</tbody>
+		<tfoot> <!-- pied du tableau (facultatif) -->
+			
+		</tfoot>
+	</table>
+	<br>
+	<table>
+		<tr> <!-- ligne du tableau -->
+			<td>Colonne 1</td> <!-- colonne du tableau -->
+			<td>Colonne 2</td>
+			<td>Colonne 3</td>
+		</tr>
+		<tr>
+			<td>Colonne 1 (ligne 2)</td>
+			<td>Colonne 2 (ligne 2)</td>
+			<td>Colonne 3 (ligne 2)</td>
+		</tr>
+	</table>
+	<br>
+	<table>
+		<caption>Listing des jeux vidéo</caption>
+		<colgroup>
+			<col class="styleColonne1">
+			<col class="styleColonnes2et3" span="2">  <!-- mise en forme CSS des colonnes 2 et 3 grâce à l'attribut "span=2" -->
+		</colgroup>
+		<thead>
+			<tr>
+				<th>/</th>
+				<th colspan="=2" abbr="Infos">Informations</th> <!-- fusion sur deux colonnes + abbréviation -->
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Doom</th>
+				<td>Éducatif</td>
+				<td rowspan="2">79.99 €</td> <!-- fusion sur deux lignes -->
+			</tr>
+			<tr>
+				<th>Mario kart</th>
+				<td>Sport</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
