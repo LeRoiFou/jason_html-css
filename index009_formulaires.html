@@ -1,0 +1,48 @@
+<!-- Cours : HTML/CSS #9 - formulaires (1/2) -->
+<!-- Lien : https://www.youtube.com/watch?v=L6ld1B2Q98Y&list=PLrSOXFDHBtfE5tpw0bjMevWxMWXotiSdO&index=9 -->
+
+<!-- Dans ce programme on apprend les formulaires en HTML
+Dans l'élément html "form", il existe deux attributs :
+	. get : qui permet de faire des recherches sur @ (comme duckduckgo, google...)
+	. post : pour les url 
+À cela on rajoute l'attribut action pour renvoyer vers une page informatique du style PHP, Javascript...
+
+On peut également rajouter d'autres attributs tels que "name" pour donner un nom du formulaire, "target" notamment avec _blank qui permet de renvoyer vers un autre onglet, "autocomplete" pour activer ou non l'autocompletition (?) du formulaire... 
+
+Pour l'attribut type, on a (liste non exhaustive) :
+. search : attribut "type" pour la recherche
+. text pour le format text
+. password pour masquer les caractères saisies
+. checkbox pour cocher une case
+. radio pour une option
+. color pour la gestion de la couleur
+. number pour les nombres
+. date pour l'affichage d'un calendrier
+. month pour le mois et l'année
+. week pour le n° de semaine
+. email pour les email
+. range pour obtenir une barre d'avancement
+. hidden pour un champ caché
+. tel pour un clavier numérique pour les applications téléphone
+-->
+
+<!-- Éditeur : Laurent REYNAUD -->
+<!-- Date : 20-04-2021 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cours n° 9 - les formulaires (1/2)</title>
+</head>
+<body>
+	<form method="post" action="">
+		<label for="prenom">Nom :</label> <input id="donnée" type="search" name="date" placeholder="Entrez votre nom..."><br><br>
+		 <!-- label permet d'accéder à la donnée sans la souris -->
+		<input type="reset" value="Effacer">
+		<!-- fait apparaître un bouton pour effacer les données-->
+		<input type="submit" value="Valider">
+		<!-- fait apparaître un bouton pour valider les données-->
+	</form>
+</body>
+</html>
