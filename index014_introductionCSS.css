@@ -1,0 +1,27 @@
+/*Un commentaire*/
+
+body{
+	background-color: #163;
+	margin: auto;
+	width: 1000px;
+	border:3px solid yellow;
+}
+
+p{
+	font-variant: small-caps;
+}
+
+#block{
+	background-color: #832;
+	border : 1px solid #000;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+span.text_red{
+	color: blue;
+}
+
+p.text_red{
+	color: white;
+}
