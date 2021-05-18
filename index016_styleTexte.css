@@ -1,0 +1,15 @@
+p.modif-p1{
+	word-wrap: break-word; /*utilisé notamment pour les tableaux qui permet d'éviter les cassures*/
+	direction: rtl; /*alignement du paragraphe (rtl -> right to left)*/
+}
+
+p.modif-p2
+{
+	text-decoration: line-through #0D9; /*type de ligne + couleur*/
+	white-space: nowrap; /*le texte est sur une seule ligne*/
+}
+
+p.modif-p3
+{
+	white-space: pre-wrap; /*suit la mise en forme dans le fichier html*/
+}

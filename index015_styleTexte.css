@@ -1,0 +1,16 @@
+h1
+{
+	font-weight: normal; /*le titre n'est plus automatiquement en gras*/
+}
+
+p.modif-p
+{
+	font-style: italic;
+	font-weight: 700; /*mis en gras mini : 100 / mis en gras max : 900*/
+	font-family: 'Lobster', cursive;
+}
+
+a /*pour le lien @*/
+{
+	font-variant: small-caps; /*petites majuscules*/
+}
