@@ -1,0 +1,16 @@
+body{
+	background-image: url(images/rabbit.png);
+	background-position: left top;
+	background-repeat: no-repeat; /*pas de répétition de l'image*/
+	/*background-repeat: repeat-x;*/ /*répétition sur la ligne*/
+	/*background-repeat: space;*/ /*répétion avec un espace entre images sur toute la ligne*/
+	/*background-repeat: round;*/ /*affichage en mozaïque*/
+	background-size: 200px;
+	/*background-size: cover;*/ /*adaptation de l'image à l'écran*/
+	/*background-size: contain;*/ /*100 % de l'image est affiché dans tous les cas*/
+	background-attachment: fixed; /*lorsqu'on descend le texte, l'image est "figée"*/
+}
+
+/*img{
+	width: 200px;
+}*/
