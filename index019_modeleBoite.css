@@ -1,0 +1,27 @@
+html{
+	background-color: #FFF;
+}
+
+body{
+	font-family: 'Kaushan Script', cursive;
+	background-color: #DDD;
+	width: 800px;
+	height: 600px;
+}
+
+div{
+	background-color: #888;
+	min-width: 600px; /*avec min-width on ne peut pas rétrécir la fenêtre jusqu'à une certaine taille*/
+	height: 500px;
+	padding-left: 50px; /*marge intérieure gauche*/
+	margin:  20px; /*marge externe sur tous les contours*/
+}
+
+P{
+	text-align: justify;
+	background-color: rgb(199, 111, 111);
+	width: 400px;
+	height: 400px;
+	padding: 25px;  /*marge intérieure sur tous les contours (haut, droite, bas et gauche)*/
+	overflow-wrap: break-word;
+}
